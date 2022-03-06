@@ -23,4 +23,3 @@ for status in api.search(q='#またたび質問箱英語', count=50):
         api.retweet(tweet_id)
     except:
         print('error')
-
