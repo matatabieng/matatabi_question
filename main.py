@@ -4,11 +4,11 @@ import tweepy
 CK = "sHdXaO0oNTDh7KK3OQCzhw75N"
 CS = "hceggx0eFZ7xWV4TfPwfCo5rFBOIk9kv3dH0UUzGLhNIBGSlY9"
 
-consumer_token = CK
+consumer_token=CK
 
-consumer_secret = CS
+consumer_secret=CS
 
-auth = tweepy.OAuthHandler(consumer_token, consumer_secret)
+auth=tweepy.OAuthHandler(consumer_token,consumer_secret)
 
 new_token = auth.access_token
 new_secret = auth.access_token_secret
