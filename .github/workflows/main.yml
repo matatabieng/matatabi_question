@@ -1,9 +1,10 @@
 name: matatabi_question_math
 
-
 on:
- schedule:
-    - cron:  '*/1 * * * *'
+  schedule:
+    - cron: '*/1 * * * *'    
+    
+    
 jobs:
   build:
     runs-on: ubuntu-latest    
