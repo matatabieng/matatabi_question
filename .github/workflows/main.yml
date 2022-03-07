@@ -2,7 +2,7 @@ name: matatabi_question_math
 
 
 on:
-  schedule:
+ schedule:
     - cron:  '*/1 * * * *'
 jobs:
   build:
