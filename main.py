@@ -1,5 +1,5 @@
 import tweepy
-iport os
+import os
 
 # CK = "sHdXaO0oNTDh7KK3OQCzhw75N"
 # CS = "hceggx0eFZ7xWV4TfPwfCo5rFBOIk9kv3dH0UUzGLhNIBGSlY9"
