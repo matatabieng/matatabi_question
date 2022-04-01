@@ -11,7 +11,7 @@ inport os
 CK=os.environ.get("CK")
 CS=os.environ.get("CS")
 AK=os.environ.get("AK")
-AC=os.environ.get("AC")
+A=os.environ.get("AC")
 
 # Twitterオブジェクトの生成
 auth = tweepy.OAuthHandler(CK, CS)
