@@ -11,7 +11,7 @@ import os
 CK=os.environ.get("CK")
 CS=os.environ.get("CS")
 AK=os.environ.get("AK")
-A=os.environ.get("AC")
+AS=os.environ.get("AC")
 
 # Twitterオブジェクトの生成
 auth = tweepy.OAuthHandler(CK, CS)
